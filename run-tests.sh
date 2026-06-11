@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PYTHONPATH="$SCRIPT_DIR/src/common:$SCRIPT_DIR/src/extension:$SCRIPT_DIR/src/gallery:$SCRIPT_DIR/src/tools${PYTHONPATH:+:$PYTHONPATH}"
+
+python3 -m unittest discover -s "$SCRIPT_DIR/tests" -p 'test_*.py'
+

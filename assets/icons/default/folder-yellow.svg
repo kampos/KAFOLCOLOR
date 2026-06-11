@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Carpeta amarilla">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8d86d"/>
+      <stop offset="1" stop-color="#dea928"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 44a8 8 0 0 1 8-8h21l10 10h45a10 10 0 0 1 10 10v32a14 14 0 0 1-14 14H32a14 14 0 0 1-14-14Z" fill="url(#body)" stroke="#9d7718" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M18 53h92v5H18z" fill="#fff" opacity=".18"/>
+  <path d="M27 36h20l10 10h42" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

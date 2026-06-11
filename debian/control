@@ -1,0 +1,23 @@
+Source: kafolcolor
+Section: gnome
+Priority: optional
+Maintainer: KAFOLCOLOR Maintainers <maintainers@example.invalid>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://example.invalid/kafolcolor
+
+Package: kafolcolor
+Architecture: all
+Depends:
+ ${misc:Depends},
+ gir1.2-gtk-4.0,
+ libglib2.0-bin,
+ nautilus,
+ python3,
+ python3-gi,
+ python3-nautilus
+Description: Nautilus extension to change folder colors and icons
+ KAFOLCOLOR adds a Nautilus context menu for local folders, allowing users
+ to apply predefined folder colors, choose custom icons, open a GTK4 icon
+ gallery, and restore the original folder icon using GNOME metadata.

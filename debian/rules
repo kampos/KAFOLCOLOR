@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+execute_after_dh_install:
+	chmod 0755 debian/kafolcolor/usr/bin/folder-palette-gallery
+	chmod 0755 debian/kafolcolor/usr/bin/folder-palette-reset

@@ -1,0 +1,5 @@
+kafolcolor (1.0.0) resolute; urgency=medium
+
+  * Initial Debian package for Ubuntu 26.04.
+
+ -- KAFOLCOLOR Maintainers <maintainers@example.invalid>  Thu, 11 Jun 2026 23:00:00 +0200

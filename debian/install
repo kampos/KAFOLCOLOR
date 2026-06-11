@@ -1,0 +1,7 @@
+assets/icons/default/*.svg usr/share/folder-palette/icons/default/
+debian/folder-palette-gallery usr/bin/
+debian/folder-palette-reset usr/bin/
+src/common/folder_palette_common.py usr/share/folder-palette/
+src/extension/folder_palette_extension.py usr/share/nautilus-python/extensions/
+src/gallery/folder-palette-gallery.py usr/share/folder-palette/
+src/tools/reset-selected-folders.py usr/share/folder-palette/

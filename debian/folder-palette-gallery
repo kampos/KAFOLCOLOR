@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 /usr/share/folder-palette/folder-palette-gallery.py "$@"
